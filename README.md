@@ -113,5 +113,4 @@ any changes in the exported version.
 
 What am I doing wrong? How can I get ```ADD``` to use the cache when the file's
 contents don't change? I thought docker used tar to create a checksum of
-directories ```ADD```ed so it would even be able to cache line 6 in my
-```Dockerfile```.
+directories ```ADD```ed so it would even be able to cache line 6 in my ```Dockerfile```.
