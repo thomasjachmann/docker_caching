@@ -1,1 +1,6 @@
 #!/bin/bash
+
+rm -rf docker/export && mkdir -p docker/export
+git archive HEAD | tar -x -C docker/export
+docker build -t docker_caching docker
+rm -rf docker/export
