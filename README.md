@@ -30,7 +30,8 @@ Just call:
 
 On the first run, this produces:
 
-``` Sending build context to Docker daemon  7.68 kB
+```
+Sending build context to Docker daemon  7.68 kB
 Sending build context to Docker daemon
 Step 0 : from busybox
  ---> a9eb17255234
