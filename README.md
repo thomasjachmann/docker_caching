@@ -1,6 +1,6 @@
 # Docker Caching
 
-I have a problem with docker's caching for ```ADD``` instructions.
+I have a problem with docker's caching for ```ADD``` instructions. This is current with Docker version 1.1.2, build d84a070.
 
 
 ## Background
